@@ -16,6 +16,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.name = [[NSString alloc]init];
+    //alloc is allocating the space in memory and init is initalizing it.
+    //Most common way it is written. 
 }
 
 
